@@ -2,7 +2,7 @@
 #include "../include/Sceen.hpp"
 
 std::string SelectToyAction::get_description() const {
-    return "Взять игрушку #" + std::to_string(toy_index + 1);
+    return "Взять игрушку под номером" + std::to_string(toy_index + 1);
 }
 
 void SelectToyAction::execute(Sceen& sceen) {
@@ -10,7 +10,7 @@ void SelectToyAction::execute(Sceen& sceen) {
 }
 
 std::string PlaceToyAction::get_description() const {
-    return "Разместить в рамку #" + std::to_string(frame_index + 1);
+    return "Разместить в рамку под номером" + std::to_string(frame_index + 1);
 }
 
 void PlaceToyAction::execute(Sceen& sceen) {
