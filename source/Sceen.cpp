@@ -103,7 +103,7 @@ void Sceen::execute_place_toy(std::size_t frame_index) {
     if (panel.try_place_toy(toy, frame_index)) {
         player.add_points(points_per_success);
         player.consume_selected_toy();
-        set_message("Успех! +" + std::to_string(points_per_success) + " очков");
+        set_message("Успешно. +" + std::to_string(points_per_success) + " очков");
     } else {
         set_message("Игрушка не подходит");
         player.deselect_toy();
