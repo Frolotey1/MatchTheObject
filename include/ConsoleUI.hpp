@@ -14,7 +14,7 @@ public:
     void show_actions(const std::vector<std::string>& actions) override {
         std::cout << "Действия:\n";
         for (std::size_t i = 0; i < actions.size(); ++i) {
-            std::cout << "  " << i + 1 << ". " << actions[i] << "\n";
+            std::cout << i + 1 << ": " << actions[i] << "\n";
         }
     }
     int get_choice(int max_choice) override {
