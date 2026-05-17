@@ -1,1 +1,0 @@
-/bin/g++ -g -Wl,--dependency-file=CMakeFiles/Game.dir/link.d CMakeFiles/Game.dir/source/main.cpp.o CMakeFiles/Game.dir/source/GameActions.cpp.o CMakeFiles/Game.dir/source/Sceen.cpp.o -o Game

@@ -1,7 +1,0 @@
-/home/fr1zb3e/MatchTheObject/build/fr1zb3e-Debug/CMakeFiles/Game.dir
-/home/fr1zb3e/MatchTheObject/build/fr1zb3e-Debug/CMakeFiles/edit_cache.dir
-/home/fr1zb3e/MatchTheObject/build/fr1zb3e-Debug/CMakeFiles/rebuild_cache.dir
-/home/fr1zb3e/MatchTheObject/build/fr1zb3e-Debug/CMakeFiles/list_install_components.dir
-/home/fr1zb3e/MatchTheObject/build/fr1zb3e-Debug/CMakeFiles/install.dir
-/home/fr1zb3e/MatchTheObject/build/fr1zb3e-Debug/CMakeFiles/install/local.dir
-/home/fr1zb3e/MatchTheObject/build/fr1zb3e-Debug/CMakeFiles/install/strip.dir
