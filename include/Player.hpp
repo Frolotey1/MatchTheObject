@@ -13,7 +13,7 @@ public:
     Player() : score(0) {}
 
     void add_toy(const Toys& toy) { inventory.push_back(toy); }
-    size_t get_inventory_size() const { return inventory.size(); }
+    std::size_t get_inventory_size() const { return inventory.size(); }
     bool is_inventory_empty() const { return inventory.empty(); }
     int get_score() const { return score; }
     void add_points(int points) { score += points; }
